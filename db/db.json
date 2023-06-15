@@ -1,53 +1,37 @@
 [
     {
-        "title": "Tomorrow",
-        "text": "bank",
-        "notes_id": "6539106e-d334-4ca1-9ce5-9b1964b64823"
-    },
-    {
         "title": "Friday",
         "text": "Go to beach",
-        "notes_id": "6e143752-7767-4ddb-8519-9b492fd0a05b"
-    },
-    {
-        "title": "Go to the bank",
-        "text": "withdraw money",
-        "notes_id": "a4298a5d-9c65-4f27-af9d-d516e4410777"
+        "id": "6e143752-7767-4ddb-8519-9b492fd0a05b"
     },
     {
         "title": "Reschedule delivery",
         "text": "change water delivery",
-        "notes_id": "c8faa997-1d05-4b6c-b5c4-f22aa2c90072"
-    },
-    {
-        "notes_id": "c7005a4c-0705-42e3-af81-a67ecaf163e7"
+        "id": "c8faa997-1d05-4b6c-b5c4-f22aa2c90072"
     },
     {
         "title": "Weekend",
         "text": "Get coffee with Chris",
-        "notes_id": "42d033f6-64ef-442b-9a40-ae76af03f99c"
-    },
-    {
-        "title": "Today",
-        "text": "Go to gym",
-        "notes_id": "4406b034-2733-4566-9029-329421e97fba"
+        "id": "42d033f6-64ef-442b-9a40-ae76af03f99c"
     },
     {
         "title": "Bootcamp",
         "text": "tomorrow",
-        "notes_id": "e40ea14a-f28c-4c07-b2a5-5e8d747b7099"
+        "id": "e40ea14a-f28c-4c07-b2a5-5e8d747b7099"
     },
     {
         "title": "Family",
         "text": "Go to dinner",
-        "notes_id": "38a91c12-574c-4f34-bb6e-e52b84ea8cfb"
+        "id": "38a91c12-574c-4f34-bb6e-e52b84ea8cfb"
     },
     {
         "title": "Friends",
         "text": "Meet up",
-        "notes_id": "49851554-abdc-4cc6-a319-fc566a514690"
+        "id": "49851554-abdc-4cc6-a319-fc566a514690"
     },
     {
-        "notes_id": "a35d58fa-99e2-4ef3-b9d4-554605699b53"
+        "title": "Barre",
+        "text": "Go to barre class",
+        "id": "9007fc7d-1126-466b-89a6-15cc4fc7700f"
     }
 ]

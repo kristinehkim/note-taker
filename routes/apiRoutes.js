@@ -9,12 +9,12 @@ readFromFile('./db/db.json').then((data) => res.json(JSON.parse(data)));
 });
 
 router.get('/notes/:id', (req, res) => {
-    const notesId = req.params.notes_id;
+    const notesId = req.params.id;
     // console.log(req.params.notes_id);
     readFromFile('./db/db.json')
     .then((data) => JSON.parse(data))
     .then((json) => {
-        const result = json.filter((notes) => notes.notes_id === notesId);
+        const result = json.filter((notes) => notes.id === notesId);
         return result.length > 0
         ? res.json(result)
         : res.json('No notes with that ID');
@@ -22,11 +22,11 @@ router.get('/notes/:id', (req, res) => {
 });
 
 router.delete('/notes/:id', (req, res) => {
-    const notesId = req.params.notes_id;
+    const notesId = req.params.id;
     readFromFile('./db/db.json')
     .then((data) => JSON.parse(data))
     .then((json) => {
-        const result = json.filter((notes) => notes.notes_id !== notesId);
+        const result = json.filter((notes) => notes.id !== notesId);
         writeToFile('./db/db.json', result);
         res.json(`Note ${notesId} has been deleted`);
     });
@@ -38,7 +38,7 @@ router.post('/notes', (req, res) => {
     const newNote = { 
         title,
         text,
-        notes_id: uuidv4(),
+        id: uuidv4(),
     };
     readAndAppend(newNote, './db/db.json');
     res.json(`Note added successfully!`);

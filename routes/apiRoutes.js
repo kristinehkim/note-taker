@@ -28,6 +28,7 @@ router.delete('/notes/:id', (req, res) => {
     .then((json) => {
         const result = json.filter((notes) => notes.id !== notesId);
         writeToFile('./db/db.json', result);
+        console.log(`Note ${notesId} has been deleted`)//How do I get this to log and not Data written to ./db/db.json? in the terminal
         res.json(`Note ${notesId} has been deleted`);
     });
 });

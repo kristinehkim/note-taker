@@ -29,7 +29,6 @@ In this note-taking application, the user is presented with a landing page with 
 
 
 ## Features
-List the ready features here:
 - Create a note's title and note text in the right-hand column.
 - Save icon will save the title and text in the left-hand column.
 - Note can be deleted by clicking the trash can icon.
@@ -38,15 +37,11 @@ List the ready features here:
 
 
 ## Screenshots
-![Example screenshot](./img/screenshot.png)
+![Example screenshot](./assets/notetaker-screenshot.png)
 <!-- If you have screenshots you'd like to share, include them here. -->
 
 
 ## Setup
-What are the project requirements/dependencies? Where are they listed? A requirements.txt or a Pipfile.lock file perhaps? Where is it located?
-
-Proceed to describe how to install / setup one's local environment / get started with the project.
-
 The following are required to run this project:
 - Node.js 
 - Express.js
@@ -55,9 +50,6 @@ The following are required to run this project:
 
 
 ## Usage
-How does one go about using it?
-Provide various use cases and code examples here.
-
 `npm i`
 
 `npm run start` or `node server.js`
@@ -68,8 +60,6 @@ Project is: _in progress_ / _complete_ / _no longer being worked on_. If you are
 
 
 ## Room for Improvement
-Include areas you believe need improvement / could be improved. Also add TODOs for future development.
-
 Room for improvement:
 - Improvement to be done 1
 - Improvement to be done 2
@@ -80,7 +70,6 @@ To do:
 
 
 ## Acknowledgements
-Give credit here.
 - Many thanks to my instructor, Michael Pacheco, the TAs, Nirav and Julius, the tutor Dane Shrewsbury, and all the AskBCS learning assistants.
 
 

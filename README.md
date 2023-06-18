@@ -1,7 +1,6 @@
 # Note Taker
-# Project Name
-> Outline a brief description of your project.
-> Live demo [_here_](https://www.example.com). <!-- If you have the project hosted somewhere, include the link here. -->
+> This is an application called Note Taker which can be used to write, save, and delete notes.  It uses a Express.js back end and will save and retrieve note data from a JSON file.
+> Live demo [_here_](https://limitless-beach-25576-c67f229a6c21.herokuapp.com/). <!-- If you have the project hosted somewhere, include the link here. -->
 
 ## Table of Contents
 * [General Info](#general-information)
@@ -18,24 +17,24 @@
 
 
 ## General Information
-- Provide general information about your project here.
-- What problem does it (intend to) solve?
-- What is the purpose of your project?
-- Why did you undertake it?
+In this note-taking application, the user is presented with a landing page with a "Get Started" link to the notes page.  When the user click on the link to the notes page, a page with existing notes is listend in the left-hand column, plus empty filds to enter a new note title and the note's text in the right-hand column.  A Save icon will appear in the navigation at the top of the page when the user enters a new note title and the note's text.  When the save button is clicked, the new note is saved and appears in the left-hand column with the other existing notes.  When an existing note in the list is clicked in the left-hand column, it appears in the right-hand column.  The user can click on the Write icon (plus sign) in the navigation at the top of the page to enter a new note title and the note's text in the right-hand column.  When a note needs to be deleted, click the trash can icon next to the existing note.
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- Tech 1 - version 1.0
-- Tech 2 - version 2.0
-- Tech 3 - version 3.0
+- Node.js
+- Express ^4.16.4
+- uuid ^8.3.2
+
 
 
 ## Features
 List the ready features here:
-- Awesome feature 1
-- Awesome feature 2
-- Awesome feature 3
+- Create a note's title and note text in the right-hand column.
+- Save icon will save the title and text in the left-hand column.
+- Note can be deleted by clicking the trash can icon.
+- Click on an existing note to display the title and text in the right-hand column.
+- Click the Write icon (plus sign) to enter a new note title and text.
 
 
 ## Screenshots
@@ -48,12 +47,20 @@ What are the project requirements/dependencies? Where are they listed? A require
 
 Proceed to describe how to install / setup one's local environment / get started with the project.
 
+The following are required to run this project:
+- Node.js 
+- Express.js
+- Node package modules
+- File System module 
+
 
 ## Usage
 How does one go about using it?
 Provide various use cases and code examples here.
 
-`write-your-code-here`
+`npm i`
+
+`npm run start` or `node server.js`
 
 
 ## Project Status
@@ -74,13 +81,11 @@ To do:
 
 ## Acknowledgements
 Give credit here.
-- This project was inspired by...
-- This project was based on [this tutorial](https://www.example.com).
-- Many thanks to...
+- Many thanks to my instructor, Michael Pacheco, the TAs, Nirav and Julius, the tutor Dane Shrewsbury, and all the AskBCS learning assistants.
 
 
 ## Contact
-Created by [@flynerdpl](https://www.flynerd.pl/) - feel free to contact me!
+Created by Kristine Kim.  Feel free to contact me at kristinehkim@gmail.com!
 
 
 <!-- Optional -->

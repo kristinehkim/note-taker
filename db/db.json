@@ -1,15 +1,5 @@
 [
     {
-        "title": "Friday",
-        "text": "Go to beach",
-        "id": "6e143752-7767-4ddb-8519-9b492fd0a05b"
-    },
-    {
-        "title": "Weekend",
-        "text": "Get coffee with Chris",
-        "id": "42d033f6-64ef-442b-9a40-ae76af03f99c"
-    },
-    {
         "title": "Bootcamp",
         "text": "tomorrow",
         "id": "e40ea14a-f28c-4c07-b2a5-5e8d747b7099"
@@ -23,5 +13,10 @@
         "title": "Friends",
         "text": "Meet up",
         "id": "49851554-abdc-4cc6-a319-fc566a514690"
+    },
+    {
+        "title": "Thursday",
+        "text": "Meet with Connie and Chris",
+        "id": "0049cc70-4abe-4046-8abe-dc88cf5deeb7"
     }
 ]

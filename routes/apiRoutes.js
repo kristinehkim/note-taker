@@ -1,6 +1,6 @@
 // API routes generally to transfer data
 const router = require('express').Router();// This lets you bundle routes together and use them as one object
-// const db = require('../db/db.json');
+
 const { v4: uuidv4 } = require('uuid');
 const { readAndAppend, readFromFile, writeToFile } = require('../helpers/fsUtils');
 

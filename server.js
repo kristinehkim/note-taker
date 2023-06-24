@@ -1,6 +1,7 @@
 const express = require('express');
 const routes = require('./routes');// our routes in one bundle - There is a nuance in JS where when you require a folder it looks  specifically for an index.js file.  This will look specifically for an index.js file
 
+// looks for if Heroku or environment is providing a part and if not then it uses 3001
 const PORT = process.env.PORT || 3001;
 
 const app = express();
